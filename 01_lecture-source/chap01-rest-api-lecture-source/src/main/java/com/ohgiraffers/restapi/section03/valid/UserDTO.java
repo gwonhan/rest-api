@@ -34,6 +34,7 @@ public class UserDTO {
     private String id;
     private String pwd;
 
+
     private String name;
     @NotNull(message = "이름은 반드시 입력되어야 합니다.")
     @Size(min = 2, message = "이름은 2자 이상")
